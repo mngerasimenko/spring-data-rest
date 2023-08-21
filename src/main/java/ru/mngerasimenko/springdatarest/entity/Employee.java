@@ -1,4 +1,4 @@
-package ru.mngerasimenko.springdatajpa.entity;
+package ru.mngerasimenko.springdatarest.entity;
 
 import javax.persistence.*;
 

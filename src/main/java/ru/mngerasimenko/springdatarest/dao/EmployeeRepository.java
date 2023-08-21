@@ -1,13 +1,9 @@
-package ru.mngerasimenko.springdatajpa.dao;
+package ru.mngerasimenko.springdatarest.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.mngerasimenko.springdatajpa.entity.Employee;
+import ru.mngerasimenko.springdatarest.entity.Employee;
 
-import java.util.List;
 
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
-
-	List<Employee> findAllByName(String name);
-
 }
